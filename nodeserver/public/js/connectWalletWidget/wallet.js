@@ -9,7 +9,7 @@ let assetContract;
 let currentasset = 'ETH';
 
 const assetprice = 0.10875;
-const minValue = 0.05;
+const minValue = 0.02;
 
 const toggleassetdropdown = document.getElementById('toggleassetdropdown');
 const inputmodalitems = document.querySelectorAll('.input__modal--item');
