@@ -15,7 +15,7 @@ const metadata = {
     name: 'project 1',
     description: 'crudoprotocol.fi',
     url: 'https://crudoprotocol.fi', // url must match your domain & subdomain
-    icons: ['https://crudoprotocol.fi//coin.png']
+    icons: ['https://crudoprotocol.fi/coin.png']
 }
 
 // 4. Create Ethers config
