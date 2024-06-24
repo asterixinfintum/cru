@@ -1,21 +1,21 @@
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers';
 import { BrowserProvider, Contract, formatUnits } from 'ethers'
 
-const projectId = 'f39d023340846389630417525b15b326';
+const projectId = 'c538033242a5cb164b537b8828bf6deb';
 
 const mainnet = {
-    chainId: 11155111, // The unique identifier for the Sepolia testnet
-    name: 'Sepolia', // The name of the test network
+    chainId: 1, // The unique identifier for the Sepolia testnet
+    name: 'Ethereum Mainnet', // The name of the test network
     currency: 'ETH', // The currency used (same as Ethereum, but test ETH)
-    explorerUrl: 'https://sepolia.etherscan.io', // Block explorer URL for Sepolia
-    rpcUrl: 'https://rpc.sepolia.org' // Public RPC URL for the Sepolia network
+    explorerUrl: 'https://etherscan.io', // Block explorer URL for Sepolia
+    rpcUrl: 'https://rpc.ankr.com/multichain/12e754014a0e9b254a9317ed71bd8e9d366f2732668a39a431763a0abcf2840b' // Public RPC URL for the Sepolia network
 };
 
 const metadata = {
-    name: 'testbase',
-    description: 'My Website description',
-    url: 'https://5b63-102-88-43-207.ngrok-free.app', // url must match your domain & subdomain
-    icons: ['https://5b63-102-88-43-207.ngrok-free.app/coin.png']
+    name: 'project 1',
+    description: 'crudoprotocol.fi',
+    url: 'https://crudoprotocol.fi', // url must match your domain & subdomain
+    icons: ['https://crudoprotocol.fi//coin.png']
 }
 
 // 4. Create Ethers config
